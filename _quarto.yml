@@ -1,0 +1,75 @@
+project:
+  type: website
+  render:
+    - "*.qmd"
+    - "!_resources/"
+  preview:
+    port: 5550
+    browser: false
+    watch-inputs: true
+    navigate: false
+
+website:
+  title: "Allegheny CompSci 203 - Student Website"
+  page-navigation: true
+  favicon: "icons/m.png"
+  open-graph: true
+  site-url: https://mbcompsci203.netlify.app
+  repo-url: https://github.com/boulais01/www.mordredsdeveloperdevelopment.com
+  issue-url: https://github.com/boulais01/www.mordredsdeveloperdevelopment.com/issues/new
+  repo-actions: [source, edit, issue]
+  repo-branch: "master"
+  search:
+    location: navbar
+    type: textbox
+  reader-mode: false
+  back-to-top-navigation: false
+  navbar:
+    left:
+      - href: precis/index.qmd
+        text: Professional Precis
+
+  page-footer:
+    center: '<a href="#" aria-label="Go to the top of the page">Top {{< fa circle-up >}}</a>'
+    right:
+      - text: "{{< iconify fa github-square size=18px >}}"
+        href: https://github.com/boulais01/www.mordredsdeveloperdevelopment.com
+      - text: "{{< iconify bi discord size=19px >}}"
+        href: https://discord.gg/aNfn8DNEMx
+      - text: "{{< iconify bi rss-fill size=18px >}}"
+        href: "precis/index.xml"
+
+format:
+  html:
+    # do not use embed-resources: true because this
+    # causes build times to take a very long time
+    # and builds will normally crash with an out
+    # of memory error from the JavaScript runtime
+    embed-resources: false
+    mainfont: Noto Sans
+    monofont: Noto Sans Mono
+    fontsize: 1.375em
+    theme:
+        - united
+        - united-light.scss
+    css: styles.css
+    toc: true
+    toc-title: "Contents"
+    code-copy: hover
+    code-overflow: wrap
+    code-fold: false
+    code-tools: false
+    highlight-style: gruvbox
+    email-obfuscation: javascript
+    # note: smooth-scroll must false so as to
+    # ensure that the back to top button
+    # in the footer of the page works correctly
+    smooth-scroll: false
+    citations-hover: true
+    footnotes-hover: true
+    citeproc: true
+    appendix-style: default
+    # highlight external links in a special fashion
+    # and always open them in a new browser window
+    link-external-icon: true
+    link-external-newwindow: true

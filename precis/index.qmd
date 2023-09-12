@@ -1,0 +1,64 @@
+---
+title: "Professional Precis Collection"
+toc: true
+page-layout: full
+---
+
+## Software Engineering at Google
+
+### Preface - Programming Over Time
+
+    As the preface, there isn't a lot of content in this segment. It outlines the
+authors' goals to present the ideas of the difference between software engineering
+and programming, namely that software engineering is over a longer period of time.
+Part of this is in outlining the key ideas(Time and Change, Scale and Growth,
+Trade-Offs and Costs) and part is from the presented equation of software engineering
+as "programming integratd over time".
+
+    This proposes that for a team starting out, it can be good to build a base that
+anticipates and prepares for a changing and developing project from the beginning.
+This is part of making a project sustainable, and therefore useful for as long as
+possible. 
+
+### What Is Software Engineering?
+
+    This chapter not only goes in depth about the differences between software
+engineering and programming proposed in the preface, but also about the principles
+of effective software engineering. These principles are much more based in what
+actions need to be taken by the engineers/project at large, as part of that
+distinction between programming and software engineering; the latter is much
+more based on longevity and therefore on the maintenance and upkeep required
+to create it. Some of these included just implementing standard practices for
+checks and for taking certain actions/making decisions, and others include
+warning against allowing problems to build up and advising awareness.
+
+    The chapter goes in much greater depth on all these points, of course. From this
+I think it would be wise to take the key understandings to heart. In particular,
+I feel that policy creation and making systems that inform how to complete tasks
+is a particularly useful idea for our current, and presumably next, projects as
+a team. 
+
+## Fuzzing Book
+
+### Introduction to Software Testing
+
+    This chapter uses a square root function as an example for what to test and how
+to go about testing functions. It covers the `assert` keyword, as well as basic
+the basic mathematic properties that go into developing the tests, and how to
+translate that into a test function/case. The chapter goes on to discuss the
+`Timer` module in relation to optimizing tests as well. From there, further
+optimization is discussed in the form of automatic run-time checks, in order
+to check the function each time it is run, with any input. This segues into
+a discussion on how effective this is as an optimization, bringing up the time
+and system expense at running such checks, and other such limits involved in
+running tests and attempts to ensure correctness.
+
+    While none of this information is new to me personally, it is valuable to
+reflect on before starting a new project, or even at any point in the process
+of one. Testing and test cases are what ensures that a program or code segment
+will work and serve its purpose, as well as allowing experimentation with
+optimizing the code with the tests to fall back on for checks. A reminder of
+the tools that aid in doing that is also helpful to make sure one does not try
+and take the long way around in creating tests, and testing the tests.
+
+## Debugging Book
