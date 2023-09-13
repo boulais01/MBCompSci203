@@ -15,8 +15,8 @@ website:
   favicon: "icons/m.png"
   open-graph: true
   site-url: https://mbcompsci203.netlify.app
-  repo-url: https://github.com/boulais01/www.mordredsdeveloperdevelopment.com
-  issue-url: https://github.com/boulais01/www.mordredsdeveloperdevelopment.com/issues/new
+  repo-url: https://github.com/boulais01/MBCompSci203
+  issue-url: https://github.com/boulais01/MBCompSci203/issues/new
   repo-actions: [source, edit, issue]
   repo-branch: "master"
   search:
@@ -33,7 +33,7 @@ website:
     center: '<a href="#" aria-label="Go to the top of the page">Top {{< fa circle-up >}}</a>'
     right:
       - text: "{{< iconify fa github-square size=18px >}}"
-        href: https://github.com/boulais01/www.mordredsdeveloperdevelopment.com
+        href: https://github.com/boulais01/MBCompSci203
       - text: "{{< iconify bi discord size=19px >}}"
         href: https://discord.gg/aNfn8DNEMx
       - text: "{{< iconify bi rss-fill size=18px >}}"
