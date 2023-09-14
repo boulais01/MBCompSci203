@@ -61,4 +61,30 @@ optimizing the code with the tests to fall back on for checks. A reminder of
 the tools that aid in doing that is also helpful to make sure one does not try
 and take the long way around in creating tests, and testing the tests.
 
+### Code Coverage
+
+This chapter goes into detail about the coverage of tests. It opens mainly with
+comparing black-box testing and white-box testing, with black-box testing being
+that which focuses on specifying what it should be, and white-box testing instead
+checking the implementation of the code. This means that while black-box testing
+can be prepared before implementing, it might miss some errors/code that only
+occurs in implementation. From there it goes on to discuss the option in Python
+to run a system function(`sys.settrace(f)`) in order to trace code and
+automatically test, as a dynamic analysis. From this command the book breaks
+down the steps to using it to assess coverage as well. The next section outlines
+how to make this process more efficient using the `with` keyword and
+functionality. After covering this topic at length, it also discusses other
+programming languages, going into automated test coverage for C. It is then
+detailed that proper coverage does not guarantee error-free code, but using
+oracle tests and/or fuzzing can help get closer to that ideal.
+
+From this I think it is important to take the understanding of not only how to
+automate the test creation and coverage checking, but also the distinctions in
+tests. Knowing which test is most effective, and when something cannot(or should
+not) be automated is important as well. Mostly, though, I think that it serves as
+both a reinforcement of the knowledge that you cannot guarantee perfect code even
+with tests and also all the ways in which you can try, as well as how to use them.
+
+
+
 ## Debugging Book
