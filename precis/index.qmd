@@ -38,6 +38,26 @@ I feel that policy creation and making systems that inform how to complete tasks
 is a particularly useful idea for our current, and presumably next, projects as
 a team. 
 
+### How to Work Well In Teams
+
+This chapter begins by highlighting the insecurity inherent to creation; the
+desire to hide and create alone until your project is perfect in order to minimize
+&mdash; or perhaps avoid entirely &mdash; the judgement of others. It then points
+out the flaws within this process, as it reduces the opportunities for flaw
+detection and for pooling many different types of expertise to resolve those, as
+well as improve on the initial design. Many hands make light work, another element
+of teamwork to aid in project completion.
+Knowing that isolation doesn't work is only half the battle, so the chapter then
+details how to encourage proper teamwork, starting with oneself. It particularly
+highlights three values; humility, respect, and trust. Through the cultivation
+of these three traits, a good team&mdash;centered perspective and attitude can
+be created.
+
+While I've been in a variety of teams and taken leadership courses, it never
+hurts to review the basics. It gives me an opportunity to review what has been
+done so far and where I can improve in maintaining the ideals and strategies of
+working with other people.
+
 ## Fuzzing Book
 
 ### Introduction to Software Testing
