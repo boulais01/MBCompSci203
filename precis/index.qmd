@@ -105,6 +105,30 @@ not) be automated is important as well. Mostly, though, I think that it serves a
 both a reinforcement of the knowledge that you cannot guarantee perfect code even
 with tests and also all the ways in which you can try, as well as how to use them.
 
+### Fuzzing: Breaking Things With Random Inputs
 
+This chapter goes in depth on the history of fuzzing tests, their creation, and
+their applications both on their own and in conjunction with other forms of
+testing. A fuzzer, or a fuzzing test, is the generation of a large amount of
+random inputs to see how well the function or program can hold up with that.
+It's a larger scale version of intentionally putting in what one knows are risky
+inputs to try to 'break' the program, to test its robustness. With this
+established, the chapter goes on to show the creation of increasingly complex
+implementations of fuzzers. Part of this discussion is going over some common
+and/or major bugs and design flaws that can create an assortment of both
+security and general issues. This leads into an explanation on the interaction
+between other types of checks with fuzzers, and how they can interact to create
+more robust test cases. This also serves to acknowledge areas in which other
+checks serve better or as more of a first line of defense. With all of this
+established, there is then a discussion of a `Fuzzing Architecture`, showing
+the practical application of the concepts discussed.
+
+The application of this for projects is quite clear. By implementing a robust
+test structure, including fuzzers to help identify as manner weak points as
+possible, one can create more reliable code both for running and for security.
+The earlier this is in place, the better, as it may catch issues with underlying
+structures that need to be altered to better suit the goal. This will help
+remove an assortment of issues that otherwise plague programmers and their
+software.
 
 ## Debugging Book
