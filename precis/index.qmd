@@ -13,7 +13,7 @@ authors' goals to present the ideas of the difference between software engineeri
 and programming, namely that software engineering is over a longer period of time.
 Part of this is in outlining the key ideas(Time and Change, Scale and Growth,
 Trade-Offs and Costs) and part is from the presented equation of software engineering
-as "programming integratd over time".
+as "programming integrated over time".
 
 This proposes that for a team starting out, it can be good to build a base that
 anticipates and prepares for a changing and developing project from the beginning.
@@ -57,6 +57,38 @@ While I've been in a variety of teams and taken leadership courses, it never
 hurts to review the basics. It gives me an opportunity to review what has been
 done so far and where I can improve in maintaining the ideals and strategies of
 working with other people.
+
+### Knowledge Sharing
+
+This chapter introduces first the struggles of knowledge sharing and the
+assortment of issues that can result from gaps in knowledge sharing, such as
+one person doing everything, or only operating by word of mouth, or of punishing
+people for making mistakes or not knowing something. This leads into the
+discussion of what can be done to prevent this, first by highlighting the
+usefulness of both written documentation and team experts to provide additional
+guidance. From here, there is a section dedicated to the discussion of how to
+cultivate a work space dedicated to learning &mdash; that is, one that promotes
+the asking of questions and decentivizes condencension and mockery of those who
+do. This can be aided through the assignment of mentors to new team members, with
+enough understanding to help and enough distance to not have the power to punish
+ignorance. The main ideas are further enforced by the notes of asking questions
+and understanding context being key elements of this. From here, the chapter goes
+on to outline in detail how to create useful documentation and knowledge sharing
+techniques, from internal webpages to classes. All of this culminates in the note
+to start small, with recording your processes as they happen, as the foundation
+on which more sophisticated systems can be built from.
+
+Mostly what I take away from this chapter is the importance of documentation
+and communication. Documenting processes and clearly commenting within code
+allows a more complete understanding for everyone involved &mdash; after all,
+there is the saying that to truly know something you have to be able to teach it.
+I think this can be applied to the ability to clearly document what one's code
+does, instead of just saying 'it works' and moving on. This is also part of
+communication, obviously, as it is communicating to others what your work is
+and does, but also provides a foundation for other communication. The other
+main point is about creating a safe environment for questions. Therefore, if
+someone has a question after reviewing the documentation, it should be noted
+who the expert is that wrote it, allowing that avenue of clarification.
 
 ## Fuzzing Book
 
