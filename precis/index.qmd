@@ -163,4 +163,27 @@ structures that need to be altered to better suit the goal. This will help
 remove an assortment of issues that otherwise plague programmers and their
 software.
 
+### Mutation Analysis
+
+This chapter discusses the testing tool of *mutation*, which creates faults that
+are valid within the syntax but incorrect for the desired outcome, allowing a
+way to test the effectiveness of a test. This is why mutations are probable
+faults; this allows for better overall testing. This came about as a more
+effective and targeted form of *fault injection*. The chapter then goes into depth
+on the technical creation of a mutation inserting program and how that would
+work. The high level overview of that is mostly that it automates making certain
+fault injections(mutations) and that when run, it checks how many of these faults
+are detected by the tests used. Using the value generated from that, the
+programmer can analyze how successful their tests were. One difficulty with this
+method is the existence of *equivalent mutants*, which are mutants that are not
+fuctionally different enough to be an effective testing mechanism. The
+recommended method of looking at this is to look at the probability of these
+equivalents existing.
+
+This chapter provides an excellent counter to the problems of only looking at
+structural coverage, even if it has its own flaws. If there is a program such
+as those displayed in the chapter built into the testing infrastructure, it
+could be a huge boon in helping reduce the unknowns involved in writing new code,
+and in improving the test cases for it.
+
 ## Debugging Book
