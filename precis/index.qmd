@@ -90,6 +90,21 @@ main point is about creating a safe environment for questions. Therefore, if
 someone has a question after reviewing the documentation, it should be noted
 who the expert is that wrote it, allowing that avenue of clarification.
 
+### Engineering for Equity
+
+This chapter mostly details the failings of Google regarding allowing for
+diversity in their products. It then uses this to outline potential solutions,
+and to note that implementing them is the only way they can actually work. A
+primary note of this is the continued reminders to begin a project with everyone
+in mind, and don't wait until it's nearly complete to factor everything in.
+
+This is less applicable to the class' current project, but still something worth
+keeping in mind in approaching the workforce. Of course, many of us in the class
+are the diversity spoken of in this section; it mostly seems to be a letter to
+an audience that is not our class. Still, knowing more is better than knowing
+less, and all of us can use the key points outlined in the `Value Versus Outcomes`
+section.
+
 ## Fuzzing Book
 
 ### Introduction to Software Testing
