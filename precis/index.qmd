@@ -201,4 +201,22 @@ as those displayed in the chapter built into the testing infrastructure, it
 could be a huge boon in helping reduce the unknowns involved in writing new code,
 and in improving the test cases for it.
 
+### Mutation-Based Fuzzing
+
+This chapter of Fuzzing Book expanded excellently on the information presented
+in previous chapters &mdash; it combines the mutation, the fuzzing, and the
+coverage in both theory and practice, and offers guides on how to implement them
+through doing so. Specifically, this chapter details how to create functions
+that create a variety of mutations based on a format or seed input, and then how
+to implement them all through one class, and then adds in the coverage checking
+to that. This method is more precise for fuzzing because of the fact that
+regular fuzzing would not adhere to the necessary format and would not be an
+effective form of testing. Possible inputs are much more effective for finding
+the weak points of a function or code segment.
+
+This would be a great thing to implement at the start of a project, or at least
+early on. For our current class project, it would likely be an inefficient use
+of resources to implement, but going into our next project, this may be something
+to assign a group to early on to improve all of our testing.
+
 ## Debugging Book
