@@ -105,6 +105,23 @@ an audience that is not our class. Still, knowing more is better than knowing
 less, and all of us can use the key points outlined in the `Value Versus Outcomes`
 section.
 
+### How to Lead a Team
+
+This chapter discusses how Google splits team leadership into two separate
+roles &mdash; the Engineering Manager and the Tech Lead, although both can be
+held by one person on a smaller scale. It also goes into why people would be
+reluctant to be managers, how to overcome that, and some strategies, such as the
+idea of Servant Leadership, can help someone learn to be a good manager. From
+here it extends into an assortment of patterns identified in management
+strategies, from the bad to the good, and how to improve or correct from the
+negative patterns. This mostly comes back to the points of being respectful,
+humble, and trusting your teammates.
+
+While none of this is new or groundbreaking information for me, it is a good
+note for the team as a whole to take into account. In my experience, becoming a
+better leader also makes a person a better follower, so this can serve everyone,
+even if they don't intend to pursue or land in leadership roles.
+
 ## Fuzzing Book
 
 ### Introduction to Software Testing
