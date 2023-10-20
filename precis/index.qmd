@@ -236,4 +236,23 @@ early on. For our current class project, it would likely be an inefficient use
 of resources to implement, but going into our next project, this may be something
 to assign a group to early on to improve all of our testing.
 
+### Fuzzing with Grammars
+
+This chapter begins with a breakdown of how formal languages and universal
+grammars function in relation to being  inputs, in order to progress into
+grammars, which are the center of the slider from the former to the latter.
+These grammars are part of how one builds a programming language as well, but
+here are used for the sake of creating inputs. By defining a grammar, a function
+can be created to create random inputs within that set structure. This is an
+excellent way to ensure the test inputs are in a valid syntax, thus allowing
+more of the code to be tested. This has its limitations, and thus in order to
+maximize effectiveness the generated inputs can be mutated, for further
+examination of the constraints and fuctionality of the code.
+
+This is an interesting use of grammars that I had not initially considered when
+I first learned about them. The further into the Fuzzing Book I read, the more
+it feels like gradually collecting puzzle pieces for creating a test suite that
+is robust as possible. Perhaps moving into our new project we can fit some of
+these pieces together.
+
 ## Debugging Book
