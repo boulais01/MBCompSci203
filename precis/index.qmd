@@ -122,6 +122,27 @@ note for the team as a whole to take into account. In my experience, becoming a
 better leader also makes a person a better follower, so this can serve everyone,
 even if they don't intend to pursue or land in leadership roles.
 
+### Leading at Scale
+
+This chapter is outlining some principles for when a leader moves further above
+the engineering aspect and more into the managing and leading aspects. There are
+thre 'always' outlined(as in, things these leaders should always be doing),
+which are Always be Deciding, Always be Leaving, and Always be Scaling. For the
+first one, Always be Deciding, the chapter refers to the fact that some problems
+are continuous and/or don't have clear solutions, and thus decisions must be
+made continuously for handling them. Always be Leaving refers to the idea that
+a leader needs to create a team that can function without them. A subset of this
+advice is that teams should be assigned to problems(constant and evolving)
+instead of solutions(temporary), so that they can continue to develop better
+solutions. The third always, Always be Scaling, is about managing the ever
+increasing amount of work that will be placed on the leader.
+
+The tips for scaling seem to be the most applicable to those not in a leadership
+position, but overall there is enough good information here for it to be worth a
+look over even for those not yet in these positions where it is needed. In fact,
+to go into a position with this information will provide a good base, and a way
+to be proactive instead of reactive.
+
 ## Fuzzing Book
 
 ### Introduction to Software Testing
