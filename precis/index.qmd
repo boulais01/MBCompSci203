@@ -276,4 +276,27 @@ it feels like gradually collecting puzzle pieces for creating a test suite that
 is robust as possible. Perhaps moving into our new project we can fit some of
 these pieces together.
 
+### Efficient Grammar Fuzzing
+
+This chapter goes over the flaws of the initial grammar fuzzer introduced
+previously, and then how to fix them. It starts this by bringing up derivation
+trees, which are a form of representing the grammar of a string or otherwise
+creation through a tree-like structure, where the top is the sum of all the parts,
+i.e. the start symbol, and each part is breaking it down further and further
+until it reaches the smallest possible labels/elements. The chapter then details
+the implementation of such a thing in generating input/fuzzing, using data
+structures such as tuples and lists to contain the parts of the grammar and of
+the tree. This is then completed when the tree can no longer be expanded by a
+specified number of nodes. This, the chapter sets up to be determined using
+functions to evaluate the cost of the expansion. This is then supplemented by
+the addition of evaluating the max, so either one or both can be used depending
+on the goal, as achieved through making parameters that correspond to each.
+Overall, the class made in this chapter creates smaller outputs but is more
+robust and applicable than the simple grammar fuzzer made previously.
+
+It makes sense that a grammar is then taken into a tree for fuzzing, much like
+it is for constructing a programming language. I had not previously thought much
+of implementing in the code itself, so it is certainly intruiging to see the
+nested tuple and list setup within the code as a representation. 
+
 ## Debugging Book
