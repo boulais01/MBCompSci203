@@ -126,7 +126,7 @@ even if they don't intend to pursue or land in leadership roles.
 
 This chapter is outlining some principles for when a leader moves further above
 the engineering aspect and more into the managing and leading aspects. There are
-thre 'always' outlined(as in, things these leaders should always be doing),
+three 'always' outlined(as in, things these leaders should always be doing),
 which are Always be Deciding, Always be Leaving, and Always be Scaling. For the
 first one, Always be Deciding, the chapter refers to the fact that some problems
 are continuous and/or don't have clear solutions, and thus decisions must be
