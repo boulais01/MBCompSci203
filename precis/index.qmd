@@ -143,6 +143,35 @@ look over even for those not yet in these positions where it is needed. In fact,
 to go into a position with this information will provide a good base, and a way
 to be proactive instead of reactive.
 
+### Style Guides and Rules
+
+This chapter opens by giving the definitions used at Google in regards to the
+distinction between rules and guides. For them, rules are laws, and as such must
+be enforced, while guides are recommended best practices. Rules and guides are
+both established to help those using them stay as on track as possible in
+pursuit of the goal or ideal of the organization. Part of this also is ensuring
+that the ruleset is not too large or complex for ease of access and
+understanding, since that would only result in hindering progress. For Google,
+to achieve their goal of readability, some of their rules make coding more
+cumbersome for their engineers, but the trade-off is considered worthwhile due
+to the fact that their code is read more often than it is written. This also is
+part of striving for consistency, to make lateral movement between projects or
+segments easier. Part of this is considering the relation to external practices,
+and how they might influence internal best practices as well.  However, it is
+also made clear that one cannot rely exclusively on consistency. Sometimes,
+being able to adapt is more important, such as for interacting with code that is
+not local and therefore not in adherence to Google guides. Plus, as with many
+things, languages and functionalities change with time and so too must the style
+rules and guides.
+
+The consistency and commenting have been points of discussion throughout the
+team's work on Chasten. Some still do not comply with the formatting for commit
+messages, which I believe is due to both a lack of reinforcement and a lack of
+clarity regarding those, showing that even on this more surface level area we
+lack consistency. Our main binding factor lies in the formatting linters and
+running black tests, supporting some points made in this chapter regarding
+automating tests as an effective solution.
+
 ## Fuzzing Book
 
 ### Introduction to Software Testing
