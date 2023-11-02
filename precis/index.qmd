@@ -328,4 +328,25 @@ it is for constructing a programming language. I had not previously thought much
 of implementing in the code itself, so it is certainly intruiging to see the
 nested tuple and list setup within the code as a representation. 
 
+### Parsing Inputs
+
+This chapter details the reverse of that which was presented in the Efficient
+Grammar Fuzzing, in that it is taking valid inputs and breaking them into the
+derivation trees. Having this representation can then be used to create an
+assortement of mutations. This is achieved through using a parser. By
+initializing a parser with a grammar, and then giving it the input to parse, one
+can get the derivation trees with which to build other inputs. The chapter also
+takes a segment to detail attempting to create an *ad hoc* parser and its
+pitfalls before going into using grammars in parsing. Specifically, the chapter
+uses a *tree pruner* approach to parsing, which is a more powerful parser and
+does not distinguish between lexing and parsing. From here, the chapter provides
+insights into parsers such as Parsing Expression Grammars and the Earley Parser,
+detailing their strengths and weaknesses.
+
+This in-depth examination of assorted parsers builds on a foundation I received
+when learning about the construction of programming languages. I'm not sure if
+there will be many opportunities to use this functionality specifically in our
+projects, but I do think this knowledge of how parsers work can provide a good
+base for approaching some other complex concepts and code.
+
 ## Debugging Book
