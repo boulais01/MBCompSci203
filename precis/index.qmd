@@ -172,6 +172,30 @@ lack consistency. Our main binding factor lies in the formatting linters and
 running black tests, supporting some points made in this chapter regarding
 automating tests as an effective solution.
 
+### Code Review
+
+Code review is, simply put, someone other than the code author(s) looking over
+the code. This is, in particular, done before that code is added on to a larger
+project, although it can happen at other stages of development as well. In fact,
+regular reviews have the potential to contribute to a better overall product
+than trying to go through it all at once. The review canbe split into three
+sections: correctness and comprehension, appropriate for the codebase in
+question, and readable. How many reviewers are necessary is dependent on who is
+best suited for those reviews; if one person is well enough suited for the
+completion of all three review segments, then only that one reviewer is
+necessary. By having a reviewer, a team can better ensure consistency and
+readability, as established by the three elements to a review. There are also
+different forms of review at Google for the different types of changes that can
+be implemented.
+
+For our projects, code review is already a built in process. There are the
+linters automating formatting, but there is also the requirement to have three
+others review code before it gets merged into the main body. This has its
+downsides, mostly in turnaround time, but provides a good base for the basis of
+good code review proposed here. Perhaps implementing a better standard as to
+how and when to perform a review could improve the processes currently in place.
+
+
 ## Fuzzing Book
 
 ### Introduction to Software Testing
