@@ -389,7 +389,7 @@ features of this approach, is that inputs may not necessarily be
 syntactically valid, which may require reducing the tree first. This is done by
 replacing subtrees and alternative expansions. 
 
-I find the chapters of this chapter fascinating, and certainly a bit more
+I find the contents of this chapter fascinating, and certainly a bit more
 difficult for me to begin wrapping my head around than some of the base/previous
 concepts. As such, I'm having trouble thinking of potential use cases in
 Chasten, especially as we have quite a limited time frame for completion at this
