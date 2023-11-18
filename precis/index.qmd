@@ -195,7 +195,6 @@ downsides, mostly in turnaround time, but provides a good base for the basis of
 good code review proposed here. Perhaps implementing a better standard as to
 how and when to perform a review could improve the processes currently in place.
 
-
 ## Fuzzing Book
 
 ### Introduction to Software Testing
@@ -372,5 +371,29 @@ when learning about the construction of programming languages. I'm not sure if
 there will be many opportunities to use this functionality specifically in our
 projects, but I do think this knowledge of how parsers work can provide a good
 base for approaching some other complex concepts and code.
+
+### Reducing Failure-Inducing Inputs
+
+This chapter covers how reducing failures can help with pinpointing the source
+of the issue. Manual input reduction &mdash; manually halving the input and
+entering the halves seperately &mdash; quickly grows ineffecient. One of the
+proposed solutions is delta debugging, which implements a binary search to
+automate the process used for manual input reduction. This is done by
+implementing a `Reducer` class, and then using that to run the reductions.
+The benefits are that it reduces the cognitive load on the programmer, easier to
+communicate, and helps with identifying duplicates. However, the worst case
+complexity can be as high as O(n^2), when the reduction has to go down to the
+individual characters. Another option is grammar&mdash;based reduction, also
+called GRABR, which relies on grammars to perform the reductions. One of the
+features of this approach, is that inputs may not necessarily be
+syntactically valid, which may require reducing the tree first. This is done by
+replacing subtrees and alternative expansions. 
+
+I find the chapters of this chapter fascinating, and certainly a bit more
+difficult for me to begin wrapping my head around than some of the base/previous
+concepts. As such, I'm having trouble thinking of potential use cases in
+Chasten, especially as we have quite a limited time frame for completion at this
+point.
+
 
 ## Debugging Book
