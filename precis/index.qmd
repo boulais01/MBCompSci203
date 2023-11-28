@@ -195,6 +195,32 @@ downsides, mostly in turnaround time, but provides a good base for the basis of
 good code review proposed here. Perhaps implementing a better standard as to
 how and when to perform a review could improve the processes currently in place.
 
+### Documentation
+
+This chapter goes over the struggles of documentation &mdash; both the lack of
+it and the writing of it. Writing documentation tends to be seen as tedious
+additional work, since it lacks immediate benefits and only comes into use
+further along. As such, finding and parsing documentation can be a chore that
+increases the level of effort a user or future developer has to do in order to
+be able to work with the software in question. While it is understood that in
+order to improve readability and the comprehension, there is otherwise little
+incentive when engineers may feel as though their time is better served making
+progress on another project. However, this deprives the original project of the
+insights that they could have provided, and made future work easier. It also can
+benefit the original engineer(s), if they return to the project after some time.
+Another aspect of the struggle to write documentation is that engineers may feel
+as though they lack the necessary writing and language skills, even though in
+in theory if they can explain their work verbally, they can explain it in
+documentation. In particular, documentation can be treated like an extension of
+the comments in the code, and like the code in terms of how it is managed. This
+also helps with treating the documentation as part of the coding process,
+instead of simply an optional burden. In addition, one must both consider their
+audience for the sake of the level writing and for possible feedback through
+which documentation can be improved. For example, two keys used to balance
+writing for a wider audience are consistency and clarity. A large part of this
+also comes from not assuming steps are obvious in another, and splitting them up
+to ensure they are made as clear as possible.
+
 ## Fuzzing Book
 
 ### Introduction to Software Testing
