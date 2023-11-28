@@ -221,6 +221,13 @@ writing for a wider audience are consistency and clarity. A large part of this
 also comes from not assuming steps are obvious in another, and splitting them up
 to ensure they are made as clear as possible.
 
+This is a continuation of previous ideas presented in this book regarding
+knowledge sharing, and ties into the initially proposed ideas of software
+engineering being the scaled&mdash;up version of programming. This is a case of
+higher upfront resource costs for the sake of long term benefits, and indeed a
+point of concern regarding the project Chasten, by my estimate, as the points of
+documentation do appear a bit limited.
+
 ## Fuzzing Book
 
 ### Introduction to Software Testing
