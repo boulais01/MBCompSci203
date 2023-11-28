@@ -228,6 +228,23 @@ higher upfront resource costs for the sake of long term benefits, and indeed a
 point of concern regarding the project Chasten, by my estimate, as the points of
 documentation do appear a bit limited.
 
+### Testing Overview
+
+This chapter covers how robust testing practices can also help with creating a
+more malleable project, as changes can better be made quicker. Testing is a way
+to build sharing the insights of one engineer with the team as well, as it
+provides an opportunity to monitor their own and others' code. One way that the
+engineers at Google try to ensure that their tests are as effcient as possible
+is by categorizing them as small, medium, or large, based off of their scope and
+scale. There are also points made for keeping tests as clear and contained as
+possible. 
+
+Overall, this chapter details how testing works and has developed at Google.
+While few of the notes are new and/or applicable information for our projects,
+it still is something that can be good to know in industry. I have little
+experience with creating tests as part of something larger, but I do in general
+enjoy writing little tests, when I have the resources to do so.
+
 ## Fuzzing Book
 
 ### Introduction to Software Testing
