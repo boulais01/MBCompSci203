@@ -428,5 +428,36 @@ concepts. As such, I'm having trouble thinking of potential use cases in
 Chasten, especially as we have quite a limited time frame for completion at this
 point.
 
-
 ## Debugging Book
+
+### Introduction to Debugging
+
+This chapter goes over both techniques to avoid and techniques to apply in
+debugging. For example, three inefficient methods include adding print
+statements into the code, changing things somewhat randomly until it works, and
+simply adding a case to pass the test explicitly rather than fulfilling the goal
+of the test. From these, it can be taken then that the steps to properly debug
+are first to understand the code, second to fix the problem rather than the
+symptom, and third to proceed systematically. Part of this is breaking the
+program or function down into states, to observe at which state the failure
+begins. It then goes into how one can apply the scientific method to debugging.
+This can be done by observing the tests in which the failure occurs, creating a
+hypothesis from that, and developing and testing from that idea, with
+re&mdash;evaluations at each development. The fix can only be implemented with
+the understanding of <bold>causality</bold> &mdash; the why and how of the
+failure's existence &mdash; and <bold>incorrectness</bold>, the why and how of
+the code is incorrect. This understanding allows one to proceed with creating
+the necessary fix. After the fix is made, one must then check for further
+defects, check that existing tests cover defects that may have been found
+separate from them or after their creation, add an assertion as another check,
+then commit and close. By following this process, and keeping a record of it,
+one can ensure they understand the scope of the problem and have a reference
+both for future similar issues and for how the program or function has been
+improved. Keeping a log can also help avoid issues found in the randomly
+changing code until it works, as it means there is a record of what has been
+done and therefore a reduction of redundancy. 
+
+Much of this process I've had to learn through intuition, osmosis, and trial and
+error already, but it is nice to see it written out and clarified. This is less
+useful this late in the project than it would have been in the beginning, but it
+certainly doesn't hurt to go over at any point in the work.
