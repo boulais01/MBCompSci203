@@ -478,3 +478,14 @@ Much of this process I've had to learn through intuition, osmosis, and trial and
 error already, but it is nice to see it written out and clarified. This is less
 useful this late in the project than it would have been in the beginning, but it
 certainly doesn't hurt to go over at any point in the work.
+
+### Tracing Execution
+
+Since Python is an interpreted language, tracing is relatively simple,
+especially with the command `sys.settrace`, into which a tracing function can be
+passed. The chapter then goes on to outline creating a function and/or class for
+tracing, with the ability to customize tracing and to view the line being
+traced, and to track when a variable is altered. Since the log produced can end
+up being complicated and hard to read, the chapter also outlines making tracing
+conditional to ensure that only what is necessary is logged, and how to set up
+logging to occur based on certain events. 
