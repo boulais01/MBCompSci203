@@ -489,3 +489,9 @@ traced, and to track when a variable is altered. Since the log produced can end
 up being complicated and hard to read, the chapter also outlines making tracing
 conditional to ensure that only what is necessary is logged, and how to set up
 logging to occur based on certain events. 
+
+Tracing, and even the `sys.settrace` method, have already been gone over
+previously, although building a class for it has not, this chapter seems to be
+more for designing that then providing any new information, and it's not a
+construct likely to be useful for our current project, though it may help,
+either in implementation or theory, later on.
