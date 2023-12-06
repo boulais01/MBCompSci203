@@ -245,6 +245,41 @@ it still is something that can be good to know in industry. I have little
 experience with creating tests as part of something larger, but I do in general
 enjoy writing little tests, when I have the resources to do so.
 
+### Unit Testing
+
+In this chapter, the author first outlines for the reader that unit testing, in
+Google's definition, consists of tests with a relatively narrow scope, scope
+referring to how much code is validated by the test. Since one of the goals of
+testing is to improve productivity, Google observed some benefits of unit tests,
+such as being fast and deterministic, easy to write(particularly alongside
+code), increase test coverage, are easy to understand, and can serve as
+documentation. Thus, a focus at Google is ensuring that these unit tests are
+maintainable. In order to do that, the tests must be both sturdy and clear; they
+shouldn't break when new code is added without bugs, and they need to be
+properly notated so their function is apparent to future engineers. Ideally,
+they don't need to be changed at all. With such goals in mind, this chapter then
+goes into methods to meet them. One such way is testing via the public API,
+since that is the method by which users will be interacting. Since the failures
+the users see are the most important failures, this is a good way to ensure that
+is the aspect both being tested and the bugs being resolved before the product
+is shipped. Another method is to ensure one tests the state, rather than the
+interactions. This is also testing more considered with the what, rather than
+the how, both since this makes a test less brittle and is what ultimately
+matters for the user experience.
+
+When the tests do inevitiably fail, their clarity comes into focus. In order to
+properly diagnose the failure, and thus the solution, relatively quickly, the
+test needs to be one that is clearly defined as to its function and purpose. The
+two factors for ensuring this clarity are completeness and conciseness. A method
+to do this is testing the behavoirs of the code, rather than making one test to
+encompass an entire method. This helps with keeping tests small and
+straightforward, as then each one tests a specific behavoir. It is also
+recommended that one avoids introducing logic into tests, as that can make the
+workings of the test less clear. Then, by also making the failure message
+contain as much possible information regarding the point of failure one can
+create a clear, concise, and complete test. 
+
+
 ## Fuzzing Book
 
 ### Introduction to Software Testing
