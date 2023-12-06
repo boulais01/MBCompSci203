@@ -277,7 +277,13 @@ straightforward, as then each one tests a specific behavoir. It is also
 recommended that one avoids introducing logic into tests, as that can make the
 workings of the test less clear. Then, by also making the failure message
 contain as much possible information regarding the point of failure one can
-create a clear, concise, and complete test. 
+create a clear, concise, and complete test, though steps must be taken to ensure
+that descriptiveness/clarity are not sacrificed for conciseness. 
+
+This chapter is quite helpful in outlining the specifications for writing these
+unit tests in order to make more robust and clear tests overall. It also helps
+give a framework with which to look at the code one needs to test as to how to
+approach the test construction. 
 
 
 ## Fuzzing Book
