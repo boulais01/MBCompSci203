@@ -556,4 +556,15 @@ Another benefit of including assertions in functions is it creates a clear bit
 of documentation regarding what the function is doing. Additionally, it provides
 that pinpointing for failures, as remarked on at the beginning of the chapter.
 Assertions in functions can also serve as [bold]data invariants[/bold], or
-invariants, which serve to check given data. 
+invariants, which serve to check given data. These are especially useful with
+larger and more complex data structures, as they can help check that each piece
+is moving/working as expected. An important element of this is that assertions
+should not be required for/part of the production code, due to their nature as
+optional functionality. It can perform a check, but shouldn't have an effect
+outside of that check. 
+
+This chapter was a compelling and enlightening one for me, since I had never
+actually considered using assertions outside of test cases. I am now curious as
+to how this relates to the testing antipattern of including print statements, as
+I imagine similar or related possibilities for issues there, especially with
+some of the notes about the resources assertions consume. 
