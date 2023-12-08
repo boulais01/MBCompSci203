@@ -536,3 +536,24 @@ previously, although building a class for it has not, this chapter seems to be
 more for designing that then providing any new information, and it's not a
 construct likely to be useful for our current project, though it may help,
 either in implementation or theory, later on.
+
+### Asserting Expectations
+
+This chapter covers using assertions, of which built&mdash;in assertions offer
+better information as to which condition and which line the failure occured.
+Built&mdash;in assertions also have the benefit of being optional, so they can
+be turned off to save computation time/power. It also covers assertions uses
+outside of test cases, and makes the claim that this is where assertions "show
+their true power". This is because assertions can be used to check preconditions,
+which are checks for ensuring the states/conditions are as they should be for
+runnning the function which they check. Tests mostly test postconditions, which
+can also be checked within the function itself. By adding assertions into the
+functions themselves, the tests are built in to every run(unless, of course, one
+turns them off). Including both the assertions for preconditions and
+postconditions would make a complete check, but some functions are resistant to
+one or the other, and so instead the assertions can only cover a partial check.
+Another benefit of including assertions in functions is it creates a clear bit
+of documentation regarding what the function is doing. Additionally, it provides
+that pinpointing for failures, as remarked on at the beginning of the chapter.
+Assertions in functions can also serve as [bold]data invariants[/bold], or
+invariants, which serve to check given data. 
