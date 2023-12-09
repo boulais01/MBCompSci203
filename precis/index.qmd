@@ -502,8 +502,8 @@ begins. It then goes into how one can apply the scientific method to debugging.
 This can be done by observing the tests in which the failure occurs, creating a
 hypothesis from that, and developing and testing from that idea, with
 re&mdash;evaluations at each development. The fix can only be implemented with
-the understanding of <bold>causality</bold> &mdash; the why and how of the
-failure's existence &mdash; and <bold>incorrectness</bold>, the why and how of
+the understanding of [bold]causality[/bold] &mdash; the why and how of the
+failure's existence &mdash; and [bold]incorrectness[/bold], the why and how of
 the code is incorrect. This understanding allows one to proceed with creating
 the necessary fix. After the fix is made, one must then check for further
 defects, check that existing tests cover defects that may have been found
