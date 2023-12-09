@@ -502,8 +502,8 @@ begins. It then goes into how one can apply the scientific method to debugging.
 This can be done by observing the tests in which the failure occurs, creating a
 hypothesis from that, and developing and testing from that idea, with
 re&mdash;evaluations at each development. The fix can only be implemented with
-the understanding of [bold]causality[/bold] &mdash; the why and how of the
-failure's existence &mdash; and [bold]incorrectness[/bold], the why and how of
+the understanding of **causality** &mdash; the why and how of the
+failure's existence &mdash; and **incorrectness**, the why and how of
 the code is incorrect. This understanding allows one to proceed with creating
 the necessary fix. After the fix is made, one must then check for further
 defects, check that existing tests cover defects that may have been found
@@ -555,7 +555,7 @@ one or the other, and so instead the assertions can only cover a partial check.
 Another benefit of including assertions in functions is it creates a clear bit
 of documentation regarding what the function is doing. Additionally, it provides
 that pinpointing for failures, as remarked on at the beginning of the chapter.
-Assertions in functions can also serve as [bold]data invariants[/bold], or
+Assertions in functions can also serve as **data invariants**, or
 invariants, which serve to check given data. These are especially useful with
 larger and more complex data structures, as they can help check that each piece
 is moving/working as expected. An important element of this is that assertions
