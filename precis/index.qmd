@@ -568,3 +568,19 @@ actually considered using assertions outside of test cases. I am now curious as
 to how this relates to the testing antipattern of including print statements, as
 I imagine similar or related possibilities for issues there, especially with
 some of the notes about the resources assertions consume. 
+
+### Statistical Debugging
+
+This chapter covers considerations of what causes a failure and the relation to
+where the error message or the failure takes place. To do so, it outlines a
+collector class, which is used to record occurences throughout the running of a
+program. This is then used in the `StatisticalDebugger` class, which is used to
+compare successful versus failing runs. This allows the programmer/user to view
+where the failure occurs to better diagnose both the problem and the solution.
+This is done in part by implementing a color&mdash;coding system to the
+collection, so that it is more immediately visible where to start in
+investigating the source of the failure. There are also notes on other models
+and theories pertainng to debugging. 
+
+On a large codebase, this style of debugging has a lot of merits, especially if
+implemented early on. As such, it may be useful in future projects. 
